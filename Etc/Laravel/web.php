@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/app_user/{id}', [AppUserController::class, 'app_user'])->name('al.app_user');
-Route::get('/play_chara_gacha/{id}',[AppUserController::class,'play_chara_gacha']);
+
 Route::get('/', function () {
     return view('welcome');
 });
